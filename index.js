@@ -9,6 +9,7 @@ const auth = require("./auth.json");
 
 const Music = require('discord.js-musicbot-addon');
 
+var BOT_TOKEN = NDE5NTIyMDc4Nzc4MDY0ODk2.DYMC-Q.35Qw5OUf_TzWf3CVwYYZqzYvPao
 
 client.on("ready", () => {
 
@@ -219,7 +220,7 @@ client.on("message", async message => {
 	
 });
 
-client.login(auth.token);
+client.login(env.process.BOT_TOKEN);
            
 
 
